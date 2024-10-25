@@ -1,0 +1,67 @@
+.header img {
+    max-width: 11.5rem;
+    max-height: auto;
+}
+body {
+    background-color: black;
+}
+header {
+    background-color: #1a1a1a;
+}
+
+a {
+    font-size: 1.01rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 410;
+}
+
+a.button-h {
+    font-weight: 300;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem 14.6rem 2rem 14.6rem;
+}
+
+.nav-links {
+    display: flex;
+    padding-left: 4rem;
+}
+ul {
+    text-align: center;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    gap: 1.8rem;
+    list-style: none;
+}
+
+.button-header {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+a.button-h-1 {
+    text-align: center;
+    padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+    border: white solid 0.1rem;
+    border-radius: 10rem;
+    font-size: 0.85rem;
+    font-weight: 420;
+}
+
+a.button-h-2 {
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: white solid 0.1rem;
+    border-radius: 10rem;
+    font-size: 0.85rem;
+    font-weight: 420;
+}
