@@ -24,12 +24,12 @@ a.button-h {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.8rem 14.6rem 2rem 14.6rem;
+    padding: 1.7rem 14.6rem 2rem 14.6rem;
 }
 
 .nav-links {
     display: flex;
-    padding-left: 4rem;
+    padding-left: 6rem;
 }
 ul {
     text-align: center;
@@ -50,7 +50,7 @@ ul {
 
 a.button-h-1 {
     text-align: center;
-    padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+    padding: 0.60rem 2.5rem 0.5rem 2.5rem;
     border: white solid 0.1rem;
     border-radius: 10rem;
     font-size: 0.85rem;
@@ -59,9 +59,22 @@ a.button-h-1 {
 
 a.button-h-2 {
     text-align: center;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.60rem 0.8rem 0.5rem 0.8rem;
     border: white solid 0.1rem;
     border-radius: 10rem;
     font-size: 0.85rem;
     font-weight: 420;
+}
+
+.button-h-1:hover,
+.button-h-2:hover {
+    border: #f0346c solid 0.1rem;
+    border-radius: 10rem;
+    transition: all ease-in-out 100ms;
+    background-color: #f0346c;
+}
+
+.nav-links ul li a:hover {
+    color: #f0346c;
+    transition: all ease-in-out 100ms;
 }
