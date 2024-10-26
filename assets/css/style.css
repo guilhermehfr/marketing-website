@@ -87,16 +87,17 @@ a.button-h-2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 38rem;
 }
 
 .background-section video {
     position: center;
     background: cover;
-    height: 39rem;
+    height: 37rem;
 }
 
 .content {
-    top: 26vh;
+    top: 25.5vh;
     position: absolute;
 }
 
@@ -104,31 +105,16 @@ a.button-h-2 {
     font-weight: 450;
     font-size: 1.4rem;
 }
+
 .text {
     display: flex;
     align-items: flex-start;
+    line-height: 4.65rem;
     padding-right: 70rem;
-    padding-top: 0.5rem;
-    padding-bottom: 2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 2.2rem;
 }
+
 .content h1 {
     font-size: 3.3rem;
 }
-
-.content a {
-    background-color: #f0346c;
-    border: #f0346c solid 0.1rem;
-    border-radius: 10rem;
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    padding: 0.8rem 3rem;
-}
-
-.content a:hover {
-    border: white solid 0.1rem;
-    color: #f0346c;
-    background-color: white;
-    transition: all ease-in-out 250ms;
-}
-
