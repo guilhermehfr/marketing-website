@@ -29,7 +29,7 @@ a.button-h {
 
 .nav-links {
     display: flex;
-    padding-left: 6rem;
+    padding-left: 7.5rem;
 }
 ul {
     text-align: center;
@@ -78,3 +78,57 @@ a.button-h-2 {
     color: #f0346c;
     transition: all ease-in-out 100ms;
 }
+.main-content {
+    background-color: #1a1a1a;
+    padding: 0 14.6rem 0 14.6rem;
+}
+
+.background-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section video {
+    position: center;
+    background: cover;
+    height: 39rem;
+}
+
+.content {
+    top: 26vh;
+    position: absolute;
+}
+
+.content span.agent-marketing {
+    font-weight: 450;
+    font-size: 1.4rem;
+}
+.text {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 70rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+.content h1 {
+    font-size: 3.3rem;
+}
+
+.content a {
+    background-color: #f0346c;
+    border: #f0346c solid 0.1rem;
+    border-radius: 10rem;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding: 0.8rem 3rem;
+}
+
+.content a:hover {
+    border: white solid 0.1rem;
+    color: #f0346c;
+    background-color: white;
+    transition: all ease-in-out 250ms;
+}
+
