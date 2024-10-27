@@ -1,98 +1,6 @@
-body {
-    background-color: black;
-}
-header {
-    background-color: #1a1a1a;
-}
-
-a {
-    font-size: 1.01rem;
-    color: white;
-    text-decoration: none;
-    font-weight: 410;
-}
-
-.start-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-a.button-h {
-    font-weight: 300;
-}
-.div-header {
-    top: 0;
-    position: fixed;
-}
-.header {
-    display: flex;
-    align-items: center;
-    gap: 1.8rem;
-    padding-top: 1.7rem;
-    padding-bottom: 2rem;
-}
-
-.header img {
-    max-width: 11.5rem;
-    max-height: 2.6rem;
-    margin-right: 7rem;
-}
-.nav-links {
-    margin-left: 2rem;
-}
-
-.button-header {
-    margin-left: 3rem;
-    display: flex;
-    text-wrap: nowrap;
-    justify-content: space-between;
-    gap: 1.2rem;
-}
-ul {
-    text-align: center;
-    display: flex;
-    text-wrap: nowrap;
-    flex-direction: row wrap;
-    justify-content: space-between;
-    gap: 1.8rem;
-    list-style: none;
-}
-
-
-a.button-h-1 {
-    text-align: center;
-    padding: 0.60rem 2.5rem 0.5rem 2.5rem;
-    border: white solid 0.1rem;
-    border-radius: 10rem;
-    font-size: 0.85rem;
-    font-weight: 420;
-}
-
-a.button-h-2 {
-    text-align: center;
-    padding: 0.60rem 0.8rem 0.5rem 0.8rem;
-    border: white solid 0.1rem;
-    border-radius: 10rem;
-    font-size: 0.85rem;
-    font-weight: 420;
-}
-
-.button-h-1:hover,
-.button-h-2:hover {
-    border: #f0346c solid 0.1rem;
-    border-radius: 10rem;
-    transition: all ease-in-out 100ms;
-    background-color: #f0346c;
-}
-
-.nav-links ul li a:hover {
-    color: #f0346c;
-    transition: all ease-in-out 100ms;
-}
 .main-content {
     padding-top: 6.9rem;
+    padding-bottom: 1rem;
     background-color: #1a1a1a;
 }
 
@@ -125,7 +33,7 @@ a.button-h-2 {
     display: flex;
     align-items: flex-start;
     line-height: 4.7rem;
-    padding-right: 60rem;
+    padding-right: 60vw;
     padding-top: 0.2rem;
     padding-bottom: 2.2rem;
 }
@@ -149,7 +57,6 @@ a.button-h-2 {
     letter-spacing: 0.1rem;
     padding-left: 2rem;
     text-align: left;
-    overflow: hidden;
     cursor: pointer;
     position: relative;
     z-index: 1;
@@ -185,8 +92,17 @@ a.button-h-2 {
     transform: rotate(180deg);
     width: 2px;
     height: 2px;
-    /* font-size: 1rem;
-    transform: scaleX(2); */
 }
+
+.button-mc:hover:after{
+    content: url(/assets/images/arrow-d2.svg);
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    transform: rotate(180deg);
+    width: 2px;
+    height: 2px;
+}
+
 /* Estilização finalizada :) */
   
