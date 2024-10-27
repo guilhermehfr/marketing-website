@@ -6,6 +6,7 @@ a.button-h {
     font-weight: 300;
 }
 .div-header {
+    z-index: 2;
     top: 0;
     background-color: #1a1a1a;
     padding-left: 20vw;
@@ -29,13 +30,7 @@ a.button-h {
     margin-left: 2rem;
 }
 
-.button-header {
-    margin-left: 3rem;
-    display: flex;
-    text-wrap: nowrap;
-    justify-content: space-between;
-    gap: 1.2rem;
-}
+
 ul {
     text-align: center;
     display: flex;
@@ -46,14 +41,31 @@ ul {
     list-style: none;
 }
 
-.link-lan:after {
+.nav-links ul li a {
+    transition: all ease-in-out 120ms;
+}
+.nav-links ul li a:hover {
+    color: #f0346c;
+    transition: all ease-in-out 120ms;
+}
+
+.button-header {
+    margin-left: 3rem;
+    display: flex;
+    text-wrap: nowrap;
+    justify-content: space-between;
+    gap: 1.2rem;
+
+}
+
+a.link-lan:after {
     content: url(/assets/images/arrow-r.svg);
     position: absolute;
     padding-top: 0.20rem;
     padding-left: 0.3rem;
 }
 
-.link-lan:hover:after {
+a.link-lan:hover:after {
     content: url(/assets/images/arrow-r2.svg);
     position: absolute;
     padding-top: 0.20rem;
@@ -85,7 +97,7 @@ a.button-h-2 {
     transition: all 320ms ease-in-out;
     z-index: 1;
 }
-.button-h-1:before {
+a.button-h-1:before {
     content: '';
     position: absolute;
     background: #f0346c;
@@ -101,7 +113,7 @@ a.button-h-2 {
     transition: transform 300ms ease-in-out;
 }
 
-.button-h-2:before {
+a.button-h-2:before {
     content: '';
     position: absolute;
     background: #f0346c;
@@ -116,33 +128,28 @@ a.button-h-2 {
     transform-origin: right;
     transition: transform 300ms ease-in-out;
 }
-.button-h-1:hover:before,
-.button-h-1:focus:before {
+a.button-h-1:hover:before,
+a.button-h-1:focus:before {
     transform: scaleX(1);
     transition: transform 200ms ease-in-out;
 }
 
-.button-h-1:hover,
-.button-h-1:focus {
+a.button-h-1:hover,
+a.button-h-1:focus {
     border: #f0346c solid 0.1rem;
     border-radius: 10rem;
     transition: all 100ms ease-in-out;
 }
 
-.button-h-2:hover:before,
-.button-h-2:focus:before {
+a.button-h-2:hover:before,
+a.button-h-2:focus:before {
     transform: scaleX(1);
     transition: transform 200ms ease-in-out;
 }
 
-.button-h-2:hover,
-.button-h-2:focus {
+a.button-h-2:hover,
+a.button-h-2:focus {
     border: #f0346c solid 0.1rem;
     border-radius: 10rem;
     transition: all 100ms ease-in-out;
-}
-
-.nav-links ul li a:hover {
-    color: #f0346c;
-    transition: all ease-in-out 100ms;
 }

@@ -1,4 +1,5 @@
 .main-content {
+    z-index: 1;
     padding-top: 6.9rem;
     padding-bottom: 1rem;
     background-color: #1a1a1a;
