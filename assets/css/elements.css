@@ -16,7 +16,9 @@ body {
     height: 2000000000rem;
 }
 
-
+p {
+    color: white;
+}
 a {
     font-size: 1.01rem;
     color: white;
