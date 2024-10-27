@@ -1,0 +1,49 @@
+.item-1 {
+    background: url(https://cmlo.co/wp-content/uploads/2023/06/Banner-Nestle-Redes-sociais-3-1-scaled.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-2 {
+    background: url(https://cmlo.co/wp-content/uploads/2023/06/Banner-principal-Saude-Petrobras-1-scaled.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-3 {
+    background: url(https://cmlo.co/wp-content/uploads/2023/07/Cases-Coqueiro-1.png.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-4 {
+    background: url(https://cmlo.co/wp-content/uploads/2023/07/moderna-12.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.item-5 {
+    background: url(https://cmlo.co/wp-content/uploads/2023/07/gemini-1.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-6 {
+    background: url(https://cmlo.co/wp-content/uploads/2023/07/banner-c3.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr); 
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 30rem;
+}
