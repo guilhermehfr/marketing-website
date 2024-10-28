@@ -60,6 +60,7 @@
     text-align: left;
     cursor: pointer;
     position: relative;
+    transition: all 120ms ease-in-out;
     z-index: 1;
 }
 
