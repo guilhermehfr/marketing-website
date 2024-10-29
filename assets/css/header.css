@@ -153,3 +153,44 @@ a.button-h-2:focus {
     border-radius: 10rem;
     transition: all 100ms ease-in-out;
 }
+
+@media (max-width: 1530px) {
+    .div-header {
+        z-index: 2;
+        top: 0;
+        background-color: #1a1a1a;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        position: fixed;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 1.8rem;
+        padding-top: 1.7rem;
+        padding-bottom: 2rem;
+    }
+    
+    .header img {
+        max-width: 11.3rem;
+        max-height: 2.3rem;
+        margin-right: 0rem;
+    }
+
+    .nav-links {
+        margin-left: 1rem;
+    }
+
+    .button-header {
+        margin-left: 0.5rem;
+        display: flex;
+        text-wrap: nowrap;
+        justify-content: space-between;
+        gap: 1.2rem;
+    
+    }
+
+    .header a {
+        font-size: 0.8rem;
+    }
+}
