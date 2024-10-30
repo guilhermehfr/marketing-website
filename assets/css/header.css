@@ -159,14 +159,12 @@ a.button-h-2:focus {
         z-index: 2;
         top: 0;
         background-color: #1a1a1a;
-        padding-left: 20vw;
-        padding-right: 20vw;
         position: fixed;
     }
     .header {
         display: flex;
-        align-items: center;
-        gap: 1.8rem;
+        align-items: space-around;
+        gap: 3vw;
         padding-top: 1.7rem;
         padding-bottom: 2rem;
     }
