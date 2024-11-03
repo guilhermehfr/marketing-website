@@ -166,3 +166,10 @@
         transition: opacity 150ms ease-in-out;
     }
 }
+
+@media (max-width: 1200px) {
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr); 
+    }
+}
