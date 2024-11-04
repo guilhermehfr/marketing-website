@@ -280,3 +280,31 @@ a.button-h-2:focus {
         gap: 1.2rem;
     }
 }
+
+@media (max-width: 767px) {
+    .nav-links {
+        display: none;
+    }
+    .header img {
+        margin-top: 0rem;
+        max-width: 16.5rem;
+        max-height: 5rem;
+    }
+    .header {
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .header .more-link-c {
+        width: 51vw;
+        display: flex;
+        margin-right: 2rem;
+        align-items: flex-end;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+    .header .more-link-c:active {
+        transition: all 0.5s ease-in-out;
+    }
+}
