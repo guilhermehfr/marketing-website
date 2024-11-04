@@ -297,14 +297,11 @@ a.button-h-2:focus {
         padding-bottom: 0.5rem;
     }
     .header .more-link-c {
-        width: 51vw;
+        width: 53vw;
         display: flex;
         margin-right: 2rem;
         align-items: flex-end;
         justify-content: flex-end;
         cursor: pointer;
-    }
-    .header .more-link-c:active {
-        transition: all 0.5s ease-in-out;
     }
 }

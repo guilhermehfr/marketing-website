@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="assets/css/initial-section.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script>
+        function changeSvg() {
+    const imgElement = document.getElementById("more-svg");
+    imgElement.src = "assets/images/close-more.svg"; // Muda para a outra imagem quando estiver em foco
+    }
+
+    function resetSvg() {
+    const imgElement = document.getElementById("more-svg");
+    imgElement.src = "assets/images/more.svg"; // Volta à imagem original quando perde o foco 
+    }
+    </script>
 </head>
 <body>
     <div class="start-page">
@@ -50,7 +61,8 @@
                 </div>
                 <div class="more-link-c">
                     <div class="more-link">
-                        <img src="/assets/images/more.svg">                       
+                        <img  id="more-svg" src="assets/images/more.svg" tabindex="0"  onfocus="changeSvg()" onblur="resetSvg()">        
+                                       
                     </div>
                 </div>
             </header>
