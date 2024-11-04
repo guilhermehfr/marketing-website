@@ -272,7 +272,9 @@ a.button-h-2:focus {
         max-height: 5rem;
     }
     .header ul {
-        width: 75vw;
+        width: 70vw;
+        align-items: flex-end;
+        justify-content: flex-end;
         text-align: flex-end;
         flex-flow: nowrap;
         gap: 1.2rem;
