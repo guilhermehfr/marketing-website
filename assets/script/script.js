@@ -1,11 +1,19 @@
-let isToggled = false;
+document.addEventListener('DOMContentLoaded', function() {
+    const menu = document.getElementById('more-menu');
+    const svgIcon = document.getElementById('more-svg');
+    let isMenuOpen = false; 
 
-function toggleSvg() {
-   const imgElement = document.getElementById("more-svg");
-    if (isToggled) {
-        imgElement.src = "assets/images/close-more.svg"; // Volta à imagem original
-    } else {
-        imgElement.src = "assets/images/more.svg"; // Muda para a nova imagem
-    }
-    isToggled = !isToggled // Alterna o estado
-}
+    svgIcon.addEventListener('click', function() {
+      
+        if (isMenuOpen) {
+            menu.style.visibility = "hidden";
+            svgIcon.src = 'assets/images/more.svg'; 
+        } else {
+            menu.style.visibility = "visible";
+            svgIcon.src = 'assets/images/close-more.svg'; 
+        }
+
+
+        isMenuOpen = !isMenuOpen;
+    });
+});

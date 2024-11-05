@@ -238,8 +238,9 @@
     }
     
     .background-section video {
+        /* width: 100%; */
         padding-left: 2rem;
-        padding-right: 2rem;
+        padding-right: 0rem;
         position: center;
         background: cover;
         height: 25rem;

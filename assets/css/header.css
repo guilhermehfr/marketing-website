@@ -31,7 +31,7 @@ a.button-h {
 }
 
 
-ul {
+.nav-links ul {
     text-align: center;
     display: flex;
     text-wrap: nowrap;
@@ -154,6 +154,77 @@ a.button-h-2:focus {
     transition: all 100ms ease-in-out;
 }
 
+
+.language {
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    margin: 0;
+    top: 6.7rem;
+    display: flex;
+    z-index: 100;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.language ul li {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 100vw;
+}
+.language ul li a {
+    padding: 1.3rem;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    color: #f0346c;
+    background-color: white;
+}
+.language ul li:nth-child(1) a {
+    border-radius: 2.2rem 2.2rem 0 0;
+}
+
+.language ul li:last-child a {
+    border-radius: 0 0 2.2rem 2.2rem;
+}
+.language ul li a:hover {
+    color: #ffff;
+}
+.language ul li a:hover {
+    background-color: #f0346c;
+}
+
+.language ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.more-link-c {
+    z-index: -1;
+}
+
+a.link-lan-more:after {
+    content: url(/assets/images/arrow-r2.svg);
+    position: absolute;
+    margin-top: -0.1rem;
+    padding-top: 0rem;
+    padding-left: 0.3rem;
+}
+
+a.link-lan-more:hover:after {
+    content: url(/assets/images/arrow-r.svg);
+    position: absolute;
+    margin-top: -0.1rem;
+    padding-top: 0rem;
+    padding-left: 0.3rem;
+}
+
 @media (max-width: 1530px) {
     .div-header {
         z-index: 2;
@@ -223,11 +294,10 @@ a.button-h-2:focus {
         flex-grow: 2;
     }
     .nav-links {
-        
         margin-left: 0;
         padding-left: 0;
     }
-    ul {
+    .nav-links ul {
         width: 50vw;
         text-align: center;
         display: flex;
@@ -237,7 +307,6 @@ a.button-h-2:focus {
         gap: 0.8rem;
         list-style: none;
     }
-    
     
     .button-header {
         margin-left: 0rem;
@@ -303,5 +372,9 @@ a.button-h-2:focus {
         align-items: flex-end;
         justify-content: flex-end;
         cursor: pointer;
+    }
+
+    .more-link-c {
+        z-index: 100;
     }
 }
