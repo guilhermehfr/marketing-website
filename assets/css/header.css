@@ -156,10 +156,8 @@ a.button-h-2:focus {
 
 
 .language {
-    transform: translateY(-20px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    margin: 0;
-    top: 6.7rem;
+    transform: scaleY(0);
+    top: 5.75rem;
     display: flex;
     z-index: 100;
     flex-direction: column;
