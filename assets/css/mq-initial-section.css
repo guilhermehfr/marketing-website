@@ -136,3 +136,44 @@
         height: 25rem;
     }
 }
+
+@media (max-width: 767px) {
+    .main-content {
+        z-index: 1;
+        padding-top: 8rem;
+        padding-bottom: 0rem;
+        background-color: #1a1a1a;
+    }
+    .content {
+        margin: auto;
+        padding: auto;
+        left: 5rem;
+        right: 5rem;
+        text-align: center;
+    }
+    .content h1 {
+        font-size: 2.3rem;
+    }
+    .text {
+        display:  flex;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        position: center;
+        justify-content: center;
+    }
+    .background-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 33.5rem;
+    }
+    
+    .background-section video {
+        width: 100%;
+        height: 30rem;
+        position: center;
+        background: cover;
+    }
+}
