@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const menu = document.getElementById('more-menu');
     const svgIcon = document.getElementById('more-svg');
     let isMenuOpen = false; 
-
     svgIcon.addEventListener('click', function() {
       
         if (isMenuOpen) {
@@ -17,3 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
         isMenuOpen = !isMenuOpen;
     });
 });
+
+function toggleSvg() {
+    const menu = document.getElementById('more-menu');
+    menu.classList.toggle('active');
+}
