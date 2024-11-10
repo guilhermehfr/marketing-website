@@ -1,0 +1,59 @@
+.cases .button-cases {
+    background-color: #f0346c;
+    color: white;
+    border-radius: 10rem;
+    border: none;
+    width: 11.5rem;
+    height: 3rem;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding-left: 2rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    transition: all 120ms ease-in-out;
+    z-index: 1;
+}
+
+.cases .button-cases:before {
+    content: '';
+    position: absolute;
+    background: white;
+    border-radius: 10rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.cases .button-cases:hover {
+    color: #f0346c;
+}
+.cases .button-cases:hover::before,
+.cases .button-cases:focus::before {
+    opacity: 1;
+}
+
+.button-cases:after{
+    content: url(/assets/images/arrow-d.svg);
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    transform: rotate(180deg);
+    width: 2px;
+    height: 2px;
+}
+
+.button-cases:hover:after{
+    content: url(/assets/images/arrow-d2.svg);
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    transform: rotate(180deg);
+    width: 2px;
+    height: 2px;
+}
