@@ -1,3 +1,41 @@
+.cases-c {
+    background-color: #1a1a1a;
+    height: 13rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cases span {
+    z-index: 1;
+    position: absolute;
+    right: 4rem;
+    margin-top: -7.5rem;
+    font-size: 12.3rem;
+    color: #252525b0;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 900;
+}
+
+.cases-c .cases .content-cases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.cases-c .cases p {
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+
 .cases .button-cases {
     background-color: #f0346c;
     color: white;
