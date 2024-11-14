@@ -1,0 +1,10 @@
+.quem-somos {
+    padding-top: 8rem;
+    background-color: black;
+    padding-left: 12.3vw;
+    padding-right: 12.3vw;
+}
+.grid-qs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
