@@ -101,10 +101,29 @@
         font-size: 10rem;
         margin-top: -5.6rem;
         right: 3rem;
+        letter-spacing: -2px;
     }
     .cases-c .cases p {
         letter-spacing: 1px;
         font-weight: 600;
         font-size: 1.45rem;
     }
+    .cases .button-cases {
+        background-color: #f0346c;
+        color: white;
+        border-radius: 10rem;
+        border: none;
+        width: 11rem;
+        height: 2.5rem;
+        font-weight: 400;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        padding-left: 2rem;
+        text-align: left;
+        cursor: pointer;
+        position: relative;
+        transition: all 120ms ease-in-out;
+        z-index: 1;
+    }
 }
+
