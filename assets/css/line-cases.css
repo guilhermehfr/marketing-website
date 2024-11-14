@@ -126,4 +126,16 @@
         z-index: 1;
     }
 }
+@media (max-width: 1025px) {
+    .cases span {
+        font-size: 7.45rem;
+        margin-top: -4rem;
+        right: 3rem;
+    }
+    .cases-c .cases p {
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 1.45rem;
+    }
+}
 
