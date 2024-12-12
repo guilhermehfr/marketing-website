@@ -1,10 +1,115 @@
 .quem-somos {
-    padding-top: 8rem;
-    background-color: black;
+    padding-top: 8.5rem;
     padding-left: 12.3vw;
     padding-right: 12.3vw;
+    padding-bottom: 8rem;
+    background-color: black;
+    
+}
+.title-qs {
+    font-size: 1.7rem;
+}
+
+.title-qs::after {
+    content: '';
+    width: 9.6rem;
+    height: 0.1rem;
+    background-color: #f0346c;
+    position: absolute;
+}
+
+
+.text-qs {
+    word-spacing: 1.5px;
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+.text-qs p {
+    margin-top: 1.2rem;
+
 }
 .grid-qs {
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+.agc-m {
+    font-weight: 600;
+}
+
+.link-qs-redtxt {
+    font-weight: 450;
+    color: #e8336d;
+}
+
+.link-qs-redtxt:hover {
+    color: #333366;
+}
+
+
+.grid-qs .button-qs {
+    margin-top: 2rem;
+    background-color: #f0346c;
+    color: white;
+    border-radius: 10rem;
+    border: none;
+    width: 13rem;
+    height: 3rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    padding-left: 2.5rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    transition: all 120ms ease-in-out;
+    z-index: 1;
+}
+
+.grid-qs .button-qs::before {
+    content: '';
+    position: absolute;
+    background: white;
+    border-radius: 10rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.grid-qs .button-qs:hover {
+    transition: all 120ms ease-in-out;
+    color: #f0346c;
+}
+
+.grid-qs .button-qs:hover::before,
+.grid-qs .button-qs:focus::before {
+    opacity: 1;
+}
+
+.button-qs::after{
+    content: url(/assets/images/arrow-d.svg);
+    position: absolute;
+    margin-top: 1.35rem;
+    margin-left: 2.5rem;
+    transform: rotate(180deg);
+    width: 2px;
+    height: 2px;
+    transition: all 120ms ease-in-out;
+}
+
+.button-qs:hover::after,
+.button-qs:focus::after {
+    content: url(/assets/images/arrow-d2.svg);
+    position: absolute;
+    margin-top: 1.35rem;
+    margin-left: 2.5rem;
+    transform: rotate(180deg);
+    width: 2px;
+    height: 2px;
+    transition: all 120ms ease-in-out;
 }
